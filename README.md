@@ -4,3 +4,5 @@
 npm i
 npm run dev
 ```
+
+![prevew](./public/macs-sandwiches-preview.png)
