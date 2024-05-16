@@ -20,9 +20,5 @@ export const OrderProvider = ({ children }: { children: React.ReactNode }) => {
     return { success: true };
   };
 
-  return (
-    <OrderContext.Provider value={{ order, updateOrder }}>
-      {children}
-    </OrderContext.Provider>
-  );
+  return <OrderContext value={{ order, updateOrder }}>{children}</OrderContext>;
 };
